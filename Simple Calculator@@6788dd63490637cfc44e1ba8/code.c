@@ -7,16 +7,16 @@ int main(){
     int sub = a-b;
     int mul = a*b;
     int div = a/b;
-    if(ch = +){
+    if(ch = '+'){
         printf("%d",sum);
     }
-    else if(ch = -){
+    else if(ch = '-'){
         printf("%d",sub);
     }
-    else if(ch = *){
+    else if(ch = '*'){
         printf("%d",mul);
     }
-    else if(ch = /){
+    else if(ch = '/'){
         printf("%d",div);
     }
     else{
