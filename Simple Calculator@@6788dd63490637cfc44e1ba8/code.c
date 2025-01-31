@@ -17,7 +17,7 @@ int main(){
         printf("%.0f\n",mul);
     }
     else if(ch == '/'){
-        printf("%.0f\n",div);
+        printf("%.2f\n",div);
     }
     else{
         printf("error");
