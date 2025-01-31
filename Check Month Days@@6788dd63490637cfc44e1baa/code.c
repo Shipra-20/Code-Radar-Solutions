@@ -12,11 +12,9 @@ int main(){
     else{
         printf("28");
     }}
-    else if{
+    else {
         printf("29");
     }
-    else{
     
-    }
     return 0;
 }
