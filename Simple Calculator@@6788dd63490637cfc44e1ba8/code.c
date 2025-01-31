@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    float a,b;
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
-    int sum = a+b;
-    int sub = a-b;
-    int mul = a*b;
+    float sum = a+b;
+    float sub = a-b;
+    float mul = a*b;
     float div = a/b;
     if(ch == '+'){
         printf("%d",sum);
