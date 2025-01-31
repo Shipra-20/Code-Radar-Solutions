@@ -6,7 +6,7 @@ int main(){
     int sum = a+b;
     int sub = a-b;
     int mul = a*b;
-    int div = a/b;
+    float div = a/b;
     if(ch == '+'){
         printf("%d",sum);
     }
