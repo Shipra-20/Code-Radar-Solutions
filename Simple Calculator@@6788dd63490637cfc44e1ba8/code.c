@@ -8,16 +8,16 @@ int main(){
     float mul = a*b;
     float div = a/b;
     if(ch == '+'){
-        printf("%f\n",sum);
+        printf("%.0f\n",sum);
     }
     else if(ch == '-'){
-        printf("%f\n",sub);
+        printf("%.0f\n",sub);
     }
     else if(ch == '*'){
-        printf("%f\n",mul);
+        printf("%.0f\n",mul);
     }
     else if(ch == '/'){
-        printf("%f\n",div);
+        printf("%.0f\n",div);
     }
     else{
         printf("error");
