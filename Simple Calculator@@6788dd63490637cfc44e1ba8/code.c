@@ -3,9 +3,9 @@ int main(){
     float a,b;
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
-    float sum = a+b;
-    float sub = a-b;
-    float mul = a*b;
+    int sum = a+b;
+    int sub = a-b;
+    int mul = a*b;
     float div = a/b;
     if(ch == '+'){
         printf("%d",sum);
