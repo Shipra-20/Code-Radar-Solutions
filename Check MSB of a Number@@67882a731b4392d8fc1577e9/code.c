@@ -3,8 +3,8 @@ int main(){
     int a;
     scanf("%d",&a);
     int mask=  1<<(sizeof(a)*8-1);
-    int msb = (a&mask); 
-    if (msb == 1){
+    int msb = (a&mask) != 0; 
+    if (msb){
         printf("Set");
     }
     else{
