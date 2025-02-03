@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main(){
-    int a,
+    int a;
     scanf("%d",&a);
     int lsb = a & 1;
     if (lsb == 1){
-        printf("Set");
+        printf("Set\n");
     }
     else{
-        printf("Not Set");
+        printf("Not Set\n");
     }
     return 0;
 }
