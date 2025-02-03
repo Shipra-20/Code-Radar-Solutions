@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("%d",&a);
-    int msb = (a>>10) & 1;
+    int msb = (a>>15) & 1;
     if (msb == 1){
         printf("Set");
     }
