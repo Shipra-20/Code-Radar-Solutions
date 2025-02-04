@@ -8,8 +8,6 @@ void decimalToBinary(int n) {
 int main() {
     int num;
     scanf("%d",&num);  
-    printf("Decimal number: %d\n", num);
-    printf("Binary representation: ");
     decimalToBinary(num);  
     printf("\n");
     return 0;
