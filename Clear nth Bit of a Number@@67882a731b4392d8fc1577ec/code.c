@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    int clear = !(a>b);
-    printf("%d",clear);
+    int clear = (a<=b);
+    printf("%d\n",clear);
     return 0;
 }
