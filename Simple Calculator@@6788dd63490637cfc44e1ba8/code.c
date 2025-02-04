@@ -20,7 +20,12 @@ int main(){
         printf("%.0f\n",div);
     }
     else{
-        printf("error");
+        if(b==0){
+            printf("error");
+        }
+        else{
+            printf("%d",a/b);
+        }
     }
     return 0;
 }
