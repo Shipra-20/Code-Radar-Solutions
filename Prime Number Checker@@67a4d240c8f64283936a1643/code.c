@@ -1,7 +1,6 @@
 #include <stdio.h>
  int main() {
      int num, i,num1, isPrime = 1;
-     printf("Enter a number: ");
      scanf("%d", &num);
      for(int j = 0; j<=num; ++j){
         scanf("%d",&num1);
