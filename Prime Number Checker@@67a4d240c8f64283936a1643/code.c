@@ -1,10 +1,10 @@
 #include <stdio.h>
  int main() {
-     int num, i,num1, isPrime = 1;
+     int num, i,num1, isPrime,j;
      scanf("%d", &num);
-     for(int j = 0; j<num; ++j){
+     for( j = 0; j<num; ++j){
         scanf("%d",&num1);
-     
+     isPrime = 1;
      if (num1 <= 1) {
          isPrime = 0;
      } else {
@@ -15,7 +15,7 @@
              }
          }
      }
-     printf("%d",isPrime;)
+     printf("%d\n", isPrime);
      }
      return 0;
  }
