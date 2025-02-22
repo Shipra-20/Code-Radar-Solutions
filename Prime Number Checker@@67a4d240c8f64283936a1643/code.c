@@ -2,9 +2,9 @@
  int main() {
      int num, i,num1, isPrime = 1;
      scanf("%d", &num);
-     for(int j = 0; j<=num; ++j){
+     for(int j = 0; j<num; ++j){
         scanf("%d",&num1);
-     }
+     
      if (num1 <= 1) {
          isPrime = 0;
      } else {
@@ -15,10 +15,7 @@
              }
          }
      }
-     if (isPrime) {
-         printf("1");
-     } else {
-         printf("0");
+     printf("%d",isPrime;)
      }
-          return 0;
+     return 0;
  }
