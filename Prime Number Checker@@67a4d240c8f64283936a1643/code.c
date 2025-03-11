@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int is_prime(int num) {
+int isprime(int num) {
     if (num <= 1) return 0;
     for (int i = 2; i * i <= num; i++) {
         if (num % i == 0) {
@@ -24,7 +24,7 @@ int main() {
             printf("Invalid number\n");
             return 1;
         }
-        printf("%d\n", is_prime(num));
+        printf("%d\n", isprime(num));
     }
 
     return 0;
