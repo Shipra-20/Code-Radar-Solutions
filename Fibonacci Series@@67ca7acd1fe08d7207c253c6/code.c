@@ -1,4 +1,11 @@
 #include<stdio.h>
+int main(){
+  int a;
+  scanf("%d",&a);
+  int result = fibonacciSeries(a);
+  printf("%d\n ",result);
+  return result;
+}
 int fibonacciSeries(int n){
     int first = 0,second =1,next;
   if (n == 0){
@@ -14,11 +21,4 @@ for(int i = 2;i <= n;++i){
               second = next;
           }
           return second; 
-}
-int main(){
-  int a;
-  scanf("%d",&a);
-  int result = fibonacciSeries(a);
-  printf("%d\n ",result);
-  return result;
 }
