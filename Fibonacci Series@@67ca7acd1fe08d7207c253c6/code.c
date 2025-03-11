@@ -1,13 +1,13 @@
 #include<stdio.h>
-int fibonacci(int n);
+int fibonacciSeries(int n);
 int main(){
   int a;
   scanf("%d",&a);
-  int result = fibonacci(a);
+  int result = fibonacciSeries(a);
   printf("%d",result);
   return 0;
 }
-int fibonacci(int n){
+int fibonacciSeries(int n){
   if (n == 0){
     return 0;
   }
