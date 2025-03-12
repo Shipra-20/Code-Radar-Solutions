@@ -6,3 +6,4 @@ int isPrime(int num) {
         }
     }
     return 1; 
+}
