@@ -1,20 +1,20 @@
 // Your code here...
 #include <stdio.h>
-
-void selectionSort(char arr(*)[100], int n) {
+void selectionSort(char arr[][100], int n) {
     for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {  
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i][0] > arr[j][0]) { 
+                for (int k = 0; k < 100; k++) {
+                    char temp = arr[i][k];
+                    arr[i][k] = arr[j][k];
+                    arr[j][k] = temp;
+                    if (arr[i][k] == '\0' || arr[j][k] == '\0') break; 
+                }
             }
         }
     }
 }
-
-void printArray(char arr(*)[100], int n) {
+void printArray(char arr[][100], int n) {
     for (int i = 0; i < n; i++)
-        printf("%c ", arr[i]);
-    printf("\n");
+        printf("%s\n", arr[i]);
 }
