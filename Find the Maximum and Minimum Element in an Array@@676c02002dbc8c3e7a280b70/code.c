@@ -20,7 +20,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int max, min;
-    findMaxMin(arr, size, &max, &min);
+    min_max(arr, size, &max, &min);
 
     printf("%d %d\n", min, max);
 
