@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-void min_max(int arr[],int size, int *max,int *min){
+void min_max(int arr[],int size, int *max,int *min,int i){
     *max = arr[0];
     *min = arr[0];
     if(int i = 1;i<size;++i){
