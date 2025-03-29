@@ -8,7 +8,7 @@ void selectionSort(char arr[][100], int n) {
                     char temp = arr[i][k];
                     arr[i][k] = arr[j][k];
                     arr[j][k] = temp;
-                    if (arr[i][k] == '\0' || arr[j][k] == '\0') break; 
+                    break; 
                 }
             }
         }
