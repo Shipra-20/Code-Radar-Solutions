@@ -11,9 +11,7 @@ int is_sorted(int arr[], int n){
         int main(){
             int arr[100];
             int n;
-            printf("Enter the number of elements: ");
             scanf("%d",&n);
-            printf("Enter the elements: ");
             for (int i = 0; i < n; i++) {
                 scanf("%d",&arr[i]);
                 }
