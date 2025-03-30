@@ -10,11 +10,11 @@ int main() {
     scanf("%d", &k);
     k = k % n;  
     for (int i = 0; i < k; i++) {
-        int first = arr[0];
-        for (int j = 0; j < n - 1; j++) {
-            arr[j] = arr[j + 1];
+        int first = arr[n - 1];
+        for (int j = n - 1; j < 0; j++) {
+            arr[j] = arr[j - 1];
         }
-        arr[n - 1] = first;
+        arr[0] = last;
     }
     for (int i = 0; i < n; i++) {
         printf("%d\n", arr[i]);  
